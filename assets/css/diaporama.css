@@ -1,0 +1,23 @@
+	body{
+ margin: 0px;
+ padding: 0px;
+ width: 100%;
+}
+.diaporama1 {
+  animation: slide 9.5s ease infinite 0s;
+  width: 400%;
+}
+@keyframes slide {
+  0%, 10.53%, 100% {
+    transform: translate(0,0);
+  }
+  26.32%, 36.84% {
+    transform: translate(-25%,0);
+  }
+  52.63%, 63.16% {
+    transform: translate(-50%,0);
+  }
+  78.95%, 89.47% {
+    transform: translate(-75%,0);
+  }
+}
