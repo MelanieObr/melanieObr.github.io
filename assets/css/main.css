@@ -2638,6 +2638,11 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.image.portfolio {
+			display: block;
+			width: 100%;
+		}
+
 			.image.main:first-child {
 				margin-top: 0;
 			}
@@ -3311,6 +3316,7 @@ input, select, textarea {
 		text-align: center;
 		z-index: 1;
 		min-height: 100vh;
+		align-content: center
 	}
 
 		#intro input, #intro select, #intro textarea {
